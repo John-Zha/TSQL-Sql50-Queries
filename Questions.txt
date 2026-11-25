@@ -1,0 +1,149 @@
+1. Query student information and course scores for students whose score in course `'01'` is higher than in course `'02'`.
+
+1.1 Query cases where both course `'01'` and course `'02'` exist.
+
+1.2 Query cases where course `'01'` exists, while course `'02'` may not exist (display `NULL` when absent).
+
+1.3 Query cases where course `'01'` does not exist, but course `'02'` exists.
+
+
+2. Query the student ID, student name, and average score of students whose average score is greater than or equal to 60.
+
+
+3. Query information of students who have scores in the `SC` table.
+
+
+4. Query the student ID, student name, total number of courses enrolled, and total score across all courses for all students (display `NULL` if there are no scores).
+
+4.1 Query information of students who have scores.
+
+
+
+5. Query the number of teachers whose surname (last name) is `'Li'`.
+
+
+6. Query information of students who have taken any course taught by teacher `'Zhang San'`.
+
+
+7. Query information of students who have not taken all courses.
+
+
+8. Query information of students who have taken at least one course that is the same as those taken by student `'01'`.
+
+
+9. Query information of other students who have taken the exact same set of courses as student `'01'`.
+
+
+10. Query the names of students who have not taken any course taught by teacher `'Zhang San'`.
+
+
+11. Query the student ID, name, and average score of students who have failed (scored below 60 in) two or more courses.
+
+
+12. Retrieve information of students whose score in course `'01'` is less than 60, ordered by score in descending order.
+
+
+13. Display the scores of all courses and the average score for all students, ordered by average score from highest to lowest.
+
+
+14. Query the highest score, lowest score, and average score for each course:
+Display in the following format: Course ID, Course name, Highest score, Lowest score, Average score, Pass rate, Medium rate, Good rate, Excellent rate.
+Pass: `>= 60`; Medium: `70–80`; Good: `80–90`; Excellent: `>= 90`.
+Require outputting the course ID and number of enrolled students; order the results by enrollment count in descending order, and if tied, order by course ID in ascending order.
+
+
+15. Rank scores within each course and display the rank, leaving gaps in ranking when `Score` is tied (`RANK()`).
+
+15.1 Rank scores within each course and display the rank, without gaps in ranking when `Score` is tied (`DENSE_RANK()`).
+
+
+16. Query the total score of each student and rank them, leaving gaps in ranking when total scores are tied.
+
+16.1 Query the total score of each student and rank them, without gaps in ranking when total scores are tied.
+
+
+17. Count the number of students in each score bracket for each course: Course ID, Course name, `[100-85]`, `[85-70]`, `[70-60]`, `[60-0]`, along with the percentage for each bracket.
+
+
+18. Query the top 3 score records for each course.
+
+
+19. Query the number of students enrolled in each course.
+
+
+20. Query the student ID and name of students who are enrolled in only two courses.
+
+
+21. Query the number of male and female students.
+
+
+22. Query information of students whose name contains `'Feng'`.
+
+
+23. Query the list of students who share the same name and the same gender, and count how many share each name.
+
+
+24. Query the list of students born in 1990.
+
+
+25. Query the average score of each course, ordered by average score in descending order; if average scores are tied, order by course ID in ascending order.
+
+
+26. Query the student ID, name, and average score of all students whose average score is greater than or equal to 85.
+
+
+27. Query the student name and score for students whose course name is `'Mathematics'` and score is below 60.
+
+
+28. Query the courses and scores for all students (including cases where a student has no scores or is not enrolled in any course).
+
+
+29. Query the student name, course name, and score for anyone whose score in any course is above 70.
+
+
+30. Query the courses that have failing scores.
+
+
+31. Query the student ID and name of students whose course ID is `'01'` and course score is above 80.
+
+
+32. Find the number of students in each course.
+
+
+33. Assuming no tied scores, among students taking courses taught by teacher `'Zhang San'`, query the information and score of the student with the highest score.
+
+
+34. Allowing for tied scores, among students taking courses taught by teacher `'Zhang San'`, query the information and score of the student(s) with the highest score.
+
+
+35. Query the student ID, course ID, and student score for students who have the exact same score across different courses.
+
+
+36. Query the top 2 highest scores for each course.
+
+
+37. Count the number of students enrolled in each course (only include courses with more than 5 students).
+
+
+38. Retrieve the student IDs of students enrolled in at least two courses.
+
+
+39. Query information of students who have enrolled in all courses.
+
+
+40. Query the age of each student, calculated by year only.
+
+
+41. Calculate age based on birth date: if the current month and day are earlier than the birth month and day, subtract 1 from the age.
+
+
+42. Query students whose birthday is this week.
+
+
+43. Query students whose birthday is next week.
+
+
+44. Query students whose birthday is this month.
+
+
+45. Query students whose birthday is next month.
